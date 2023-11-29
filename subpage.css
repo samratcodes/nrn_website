@@ -1,0 +1,227 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 1rem;
+   font-family: 'Inter', sans-serif;
+}
+
+header
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+.top{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.top img{
+    width: 30rem;
+}
+.phone{
+    display: flex;
+    align-items: center;
+   
+}
+.phone_text_top{
+    font-size: 1.2rem;
+    font-weight: bold;
+}i{
+        font-size: 1.5rem;
+        padding: 0.5rem;
+        background-color:rgb(0,133,223);
+        border-radius: 1rem;
+        color: white;
+    }
+ 
+ 
+.button{
+    font-size: 1rem;
+    border-radius: 10px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color:white;
+    background-color:rgb(69,173,214) ;
+    width: 10rem;
+    height: 2rem;
+     font-weight: 400;
+}
+
+/* Navigation bar */
+.navbar{
+    width: 100%;
+    height: max-content;
+    display:flex;
+    background-color:rgb(0,133,223);
+    justify-content: center;
+    padding: 1rem;
+}
+.menu i,.cross i{
+    display: none;
+}
+
+.navoptions{
+   
+    display: flex;
+align-items: center;
+    justify-content: space-between;
+    width: 75rem;
+    color: white;
+    font-weight: 600;
+}
+
+.navoption{
+   padding: 5px;
+    display: flex;
+}
+.navoption i{
+   font-size: 0.5rem;
+}
+.lolabout{
+    display: flex;
+    flex-direction: column  ;
+}
+.dropdown{
+    padding: 1rem;
+    display:none;
+   color:rgb(0,133,223) ;
+   border-left: 3px solid rgb(0,133,223) ;
+   border-radius: 1rem;
+   margin-top: 1.7rem;
+    margin-left: -15px;
+       color: black;
+    position: absolute;
+background-color: white;
+flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.dropdown li{
+    padding: 0.5rem;
+  
+}
+.dropdown  li:hover{
+    background-color:rgb(69,173,214);
+    color: white;
+}
+#About_us:hover .dropdown , #Projects:hover .dropdown , #Meetings:hover .dropdown , #Chapter:hover .dropdown ,#Media:hover .dropdown,#Document:hover .dropdown,#Members:hover .dropdown{
+display: block;
+}
+ ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+    }
+main{
+     border: 1px solid rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url('https://img.freepik.com/premium-vector/modern-colorful-blue-technology-wide-banner-background-abstract-background-banner-design-web-banner-texture-header-website-vector-abstract-graphic-design-pattern-background-template_181182-16324.jpg');
+    height:20rem;
+    width: 100%;
+      background-size: cover; 
+  background-position: center;
+  
+  padding: 1rem;
+}
+.main_Text{
+    position:static;
+}
+.main_Text_top{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    color: white;
+}
+.main_Text_top div{
+ font-size: 4rem;
+}
+.green{
+    font-size: 4rem;
+    color: rgb(26,218,90);
+}
+footer{
+     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0,133,223);
+    color: white;
+}
+.footer_top{
+   
+    width: 80rem;
+    height: 15rem;
+    display: flex;
+    justify-content: space-between;
+ 
+}
+.ft_details ,.ft_About{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.ft_details img{
+width: 30rem;
+}
+.socials i{
+    color: rgb(255, 255, 255);
+    background-color: rgb(54, 54, 54);
+}
+.socials{
+    display: flex;
+    justify-content: space-around;
+    width: 10rem;
+}
+.fta_title{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+
+.objectiveGoals,.executiveBoards,.advisors{
+
+margin: 2rem;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.og_title{
+    border: 10px solid rgb(9,3,39);
+    padding: 2rem;
+    background-color: rgb(255,255,255);;
+    color: rgb(0,133,223);
+    font-size: 3rem;
+    font-weight: 600;
+    margin-top: -5rem;
+}
+.ogco_title,.ogcg_title{
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin: 1rem;
+}
+ .ogco_content ol li , .ogcg_content ol li{
+padding: 0.5rem;
+}
+.ogc_objective{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  
+}
+a{
+    text-decoration: none;
+    color: black;
+}

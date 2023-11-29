@@ -5,7 +5,9 @@
     font-size: 1rem;
    font-family: 'Inter', sans-serif;
 }
-
+a{
+    text-decoration: none;
+}
 header
 {
     display: flex;
@@ -127,9 +129,53 @@ display: block;
     width: 75rem;
     justify-content: space-around;
 }
-.AS_left img{
-    width: 50rem;
+.AS_left{
+    display: flex;
+    flex-direction: column;
+  
+   align-items: center;
+    width: 600rem;
+    background: url("https://beta.nrnakr.org/frontend/images/donor_image.png");
+    height: 50rem;
 }
+.ASL_text1{
+    border-radius: 2rem;
+    padding: 1rem;
+    height: max-content;
+ font-size:4rem;
+    font-weight: 600;
+    color: white;
+    margin-top: 2.5rem;
+    background-color: rgb(32,34,91);
+  
+}
+.ASL_text2{
+    border-radius: 2rem;
+    padding: 1rem;
+    height: max-content;
+ font-size:2rem;
+    font-weight: 600;
+    color:rgb(177,203,255);
+    margin-top: 2rem;
+    background-color:white;
+  
+}
+.map{background-color:rgb(0,133,223);
+    display: flex;
+    justify-content: center;
+}
+.map_section{
+    height: 30rem;
+    width: 95%;
+    
+}
+  #map {
+            height: 100%;
+            width: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
 .section1{
     background-color: rgb(228,241,251);
     display: flex;
